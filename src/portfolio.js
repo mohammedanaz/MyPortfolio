@@ -90,30 +90,9 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using React-Redux",
-        "⚡ Creating application backend in Django",
+        "⚡ Creating application backend using Django",
       ],
       softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        // {
-        //   skillName: "Sass",
-        //   fontAwesomeClassname: "simple-icons:sass",
-        //   style: {
-        //     color: "#CC6699",
-        //   },
-        // },
         {
           skillName: "Python",
           fontAwesomeClassname: "simple-icons:python",
@@ -126,6 +105,20 @@ const skills = {
           fontAwesomeClassname: "simple-icons:django",
           style: {
             color: "#092E20",
+          },
+        },
+        {
+          skillName: "Celery",
+          fontAwesomeClassname: "simple-icons:celery",
+          style: {
+            color: "#9DCE5C",
+          },
+        },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "logos:redis",
+          style: {
+            color: "#DC382D",
           },
         },
         {
@@ -150,34 +143,62 @@ const skills = {
             color: "#764ABC",
           },
         },
-        // {
-        //   skillName: "NodeJS",
-        //   fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-        //   style: {
-        //     color: "#339933",
-        //   },
-        // },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "Websocket",
+          fontAwesomeClassname: "logos:websocket",
           style: {
-            color: "#CB3837",
+            color: "#DC382D",
           },
         },
-        // {
-        //   skillName: "Yarn",
-        //   fontAwesomeClassname: "simple-icons:yarn",
-        //   style: {
-        //     color: "#2C8EBB",
-        //   },
-        // },
-        // {
-        //   skillName: "Gatsby",
-        //   fontAwesomeClassname: "simple-icons:gatsby",
-        //   style: {
-        //     color: "#663399",
-        //   },
-        // },
+        {
+          skillName: "WebRTC",
+          fontAwesomeClassname: "logos:webrtc",
+          style: {
+            color: "#DC382D",
+          },
+        },
+        {
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "CSS3",
+          fontAwesomeClassname: "fa-css3",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
+          style: {
+            color: "#800af9",
+          },
+        },
+        {
+          skillName: "MUI",
+          fontAwesomeClassname: "logos:material-ui",
+          style: {
+            color: "#800af9",
+          },
+        },
+        {
+          skillName: "Postman",
+          fontAwesomeClassname: "simple-icons:postman",
+          style: {
+            color: "#ef5b25",
+          },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
+          style: {
+            color: "#f14e32",
+          },
+        },
       ],
     },
   ],
@@ -425,7 +446,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools like  Django, React, Redux etc.",
+    "My projects makes use of vast variety of latest technology tools like  Django, React, Redux, Postgresql, Redis, Django channels, Celery, Websocket, WebRTC etc.",
   avatar_image_path: "projects_image.svg",
 };
 
